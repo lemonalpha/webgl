@@ -1,0 +1,27 @@
+{
+  "name": "webgl",
+  "version": "1.0.0",
+  "description": "webgl learning proj by typescript and webpack",
+  "keywords": [
+    "webgl",
+    "typescript",
+    "webpack"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "dev": "npx webpack-dev-server --mode development --content-base ./dist"
+  },
+  "author": "alpha",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^2.0.0",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.3",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
